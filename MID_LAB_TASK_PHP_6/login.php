@@ -2,7 +2,7 @@
 	
 	
 	
-	<form action="" method="">
+	<form class="" action="" method="post">
 	
 	<fieldset >
 	<legend>LOGIN</legend>
@@ -13,22 +13,21 @@
 	</tr>
 	<tr>
 	<td>Password</td>
-	<td>:<input type="Password"  name="pass"></td>
+	<td>:<input type="Password"  name="password" value=""></td>
 	
 	</tr>
-	
- <tr>
- <td>Remember me</td>
- <td><input type="checkbox" name="item[]"/></td>
- 
- </tr>
- <tr>
-	<td><input type="submit" name="" value="Submit"/> </td>
-	<td><a href="">Forget Password?</a></td>
-
- </tr> 
-	
 	</table>
+	
+
+ <input type="checkbox" name="" value=""/> Remember Me<br>
+ 
+ 
+	<input type="submit" name="submit" value="Submit"/> Forget Password
+	
+
+
+	
+	
 	</fieldset>
 	</form>
 	</body>
